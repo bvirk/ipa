@@ -1,0 +1,12 @@
+
+div[class|=mdsur-play-nextdiv_args] p {
+	color: white;
+}
+div[class|=mdsur-play-nextdiv_args] {
+	display: block;
+	width: 70%;
+	margin: auto;
+
+}
+
+

@@ -1,0 +1,36 @@
+/** common stylesheets */
+#screenshot {
+	position:absolute;
+	border:1px solid #ccc;
+	background:#fff; 
+	padding:5px;
+	display:none;
+	color:#000;
+	font-size:1.5em;
+	font-weight:bold;
+}
+
+.ham-menu {
+	text-decoration: none;
+	position: absolute;
+	font-size: 2em;
+	left: 83%;
+	top: 3px;
+	color: black;
+}
+
+div[class^="mdsur"] {
+	background-color: white;
+	margin: auto;
+	/*border: 1px solid blue;*/
+	padding-left: 25px;
+	padding-right: 25px;
+		padding-top: 25px;
+}
+.sur {
+	width: 70%;
+	margin: auto;
+	background-color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+}

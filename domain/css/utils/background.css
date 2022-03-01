@@ -1,0 +1,43 @@
+
+body { 
+	background-image: url(/img/pages/utils/vertGrad.jpg);
+	background-repeat: repeat-x;
+}
+
+.ham-menu {
+	color: white;
+}
+
+div.sur {
+	/*border: 1px solid blue;*/
+	margin-top: 50px;
+	background-color: black;
+}
+
+div.mdsur-utils-background-0 {
+	/*border: 1px solid yellow;*/
+	float: right;
+}
+
+div[class|='mdsur-utils-background'] {
+	color:white;
+	background-color: black;
+}
+
+#mybut {
+	position: absolute;
+	top: 90%;
+	left: 0;	
+}
+
+a[title='bgcloser'] {
+	font-size: 2em;
+	font-weight: bold;
+	/*text-decoration: none;
+	color: white; */
+}
+
+a[title='bgcloser']:visited,a[title='bgcloser']:link {
+	color: white;
+	text-decoration: none;
+}

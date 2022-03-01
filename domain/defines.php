@@ -1,0 +1,12 @@
+<?php
+define("DEFAULTPAGE","/landing");
+define("PAGESDIR","pagessets");
+define("CSSDIR","css");
+define("COMMANDDIR","commands");
+define("DOCROOTSKIP",24);
+define("MOUNTFOLDER","/mnt/hede");
+define("ADDINDEX",true);
+define("REMOVEINDEX",false);
+define("ISLIBRARYPAGES",["pageAware","pageFuncs"]);
+define("LOGFILE","log/logfile");
+define("JAVASCRIPT",'bvirk\utilclasses\JScripts');

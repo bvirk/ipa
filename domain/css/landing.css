@@ -1,0 +1,11 @@
+body {
+background-image: url(/img/pages/utils/ffrog124x200.png),url(/img/pages/utils/rpie.png),url(/img/pages/utils/b197x231oposity20.png),url(/img/pages/utils/vertGrad.jpg);
+background-position: 248px 468px , 454px 222px , 365px 167px, 0px 0px;
+background-repeat: no-repeat,no-repeat,no-repeat,repeat-x;
+}
+
+div.big { 
+	height: 600px;
+	width: 60%;
+	margin: auto;
+}

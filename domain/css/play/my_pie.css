@@ -1,0 +1,12 @@
+body {
+	background-image: url(/img/pages/utils/ffrog124x200.png),url(/img/pages/utils/vertGrad.jpg);
+	background-position: 9% 468px ,0px 0px;
+	background-repeat: no-repeat,repeat-x;
+}
+
+#container {
+	width: 65%; 
+	min-width: 310px; 
+	height: 470px; 
+	margin: 7% auto;
+}

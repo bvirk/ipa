@@ -1,0 +1,89 @@
+.sitemap {
+	width: 30%;
+	margin: auto;
+	border: 2px groove lightgray;
+}
+
+.sitemap p {
+		margin-left: 10%;
+}
+
+.back-to-ham {
+	text-decoration: none;
+	font-size: 2em;
+	color: black;
+	float:right;
+	padding-right: 4px;
+}
+
+.menu-root {
+	text-decoration: none;
+	font-size: 2em;
+	color: black;
+	text-align:left;
+	float:left;
+	padding-left: 10px;
+}
+
+div[class|=main] {
+	margin-left: 15%;
+}
+
+
+div[class|=submenu] {
+	margin-left: calc(40% + 10px);
+	display: none;
+}
+
+div[class|=main] > a,div[class|=submenu] > a {
+	text-decoration: none;
+	display: block;
+	float: right;
+	font-size: 1.5em;
+	font-weight: bold;
+
+}
+
+div[class|=main] {
+	width: 180px;
+	border: 10px  solid maroon;
+	background-color: maroon;
+	margin-bottom: 5px;
+}
+
+div[class|=submenu] {
+	width: 180px;
+	border: 10px  solid darkgreen;
+	background-color: darkgreen;
+	margin-bottom: 5px;
+}
+
+div.linktext {
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	
+}
+
+div.topOfMenu {
+	height: 40px;
+	color: black;
+}
+
+a:link,a:visited {
+	color: white;
+}
+
+a.mdsrc:link,a.mdsrc:visited {
+	color: black;
+	text-decoration: none;
+	font-size: 2em;
+	display: block;
+	position: absolute;
+	left: 90%;
+	top: 0;
+}
+
+div.topOfMenu > a:visited, div.topOfMenu > a:link {
+	color: black;
+}

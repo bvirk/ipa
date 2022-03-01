@@ -1,0 +1,17 @@
+
+#myButton {
+	width:200px; 
+}
+ul li { display: inline; }
+
+fieldset {
+ min-width: 300px;
+ display: inline-block;
+}
+
+fieldset input{
+ float: right;
+ width: 350px;
+}
+
+

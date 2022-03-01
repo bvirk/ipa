@@ -1,0 +1,128 @@
+$(function () {
+	var chartype = {
+		type: 'pie'
+	}
+	var chartitle = {
+		text: ''
+	}
+	var charsubtitle = {
+		text: 'Click the slices to view versions. Source: netmarketshare.com.'
+	}
+	var chartooltip = {
+		headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+		pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y:.2f}%</b> of total<br/>'
+	}
+	var chartplotoptions = {
+		series: {
+			dataLabels: {
+				enabled: true,
+				format: '{point.name}: {point.y:.1f}%'
+			}
+		}
+	}
+	var chartseries = [{
+		name: 'Aktivitet',
+		colorByPoint: true,
+		data: [{
+			  name: 'Social og juridisk kommunikation',
+			  y: 2.0,
+			  drilldown: 'Social og juridisk kommunikation'
+			}
+			,{
+			  name: 'Viden og nyheder',
+			  y: 24.4,
+			  drilldown: 'Viden og nyheder'
+			}
+			,{
+			  name: 'Administrere og strukturere data',
+			  y: 17.5,
+			  drilldown: 'Administrere og strukturere data'
+			}
+			,{
+			  name: 'Programmere',
+			  y: 18.7,
+			  drilldown: 'Programmere'
+			}
+			,{
+			  name: 'Tegne og foto redigering',
+			  y: 12.5,
+			  drilldown: 'Tegne og foto redigering'
+			}
+			,{
+			  name: 'Video og lyd',
+			  y: 24.9,
+			  drilldown: 'Video og lyd'
+			}]
+	}]
+	var chartdrilldown = {
+		series: [{
+			name: 'Social og juridisk kommunikation',
+			id: 'Social og juridisk kommunikation',
+			data: [
+			  ['sms, email og nemid',0.4],
+			  ['debatere i fora',0.3],
+			  ['køb og salg',0.3],
+			  ['regnskab',0.4],
+			  ['eget domæne',0.5]
+			]},{
+			name: 'Viden og nyheder',
+			id: 'Viden og nyheder',
+			data: [
+			   ['wikipedia',4.0]
+			  ,['search engines',4.2]
+			  ,['dr.dk',3.0]
+			  ,['RSS-feeds',5.8]
+			  ,['podcasts',6.1]
+			]},{
+			name: 'Administrere og strukturere data',
+			id: 'Administrere og strukturere data',
+			data: [
+			   ['flytte filer i mapper',5.7]
+			  ,['hente, ændre og slette filer',5.8]
+			  ,['database brug',3.7]
+			  ,['backup',1.7]
+			  ,['git',2.0]
+			]},{
+			name: 'Programmere',
+			id: 'Programmere',
+			data: [
+			   ['c og c++',0.6]
+			  ,['java',2.6]
+			  ,['html, css and javascript',2.8]
+			  ,['ms-access vba ide',1.3]
+			  ,['php phpmyadmin',2.6]
+			  ,['asp',0.4]
+			  ,['bash in linux',2.5]
+			  ,['bat in windows',0.3]
+			  ,['ruby',0.2]
+			  ,['jedit and vi',2.8]
+			  ,['mbed.com',0.8]
+			  ,['arduino',1.2]
+			]},{
+			name: 'Tegne og foto redigering',
+			id: 'Tegne og foto redigering',
+			data: [
+			   ['sketchup',4.6]
+			  ,['photoshop',3.4]
+			  ,['gimp',5.0]
+			]},{
+			name: 'Video og lyd',
+			id: 'Video og lyd',
+			data: [
+			   ['ffmpeg',4.3]
+			  ,['youtube-dl',5.2]
+			  ,['mplayer',5.8]
+			  ,['celluoid',6.6]
+			]}
+		]
+	}
+	$('#container').highcharts({
+		chart:chartype,
+		title: chartitle,
+		tooltip: chartooltip,
+		plotOptions: chartplotoptions,
+		series: chartseries,
+		drilldown:chartdrilldown
+	});
+	
+});

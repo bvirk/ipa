@@ -1,0 +1,135 @@
+body {
+	background: linear-gradient(to bottom, rgba(195, 195, 195, 1), rgba(255, 255, 255, 1) 10%) fixed;
+	/* background-image: url('/img/pages/github64.png');  
+	background-repeat: no-repeat;
+	background-position:  95% 95%; 
+	background-repeat: no-repeat 50% center; */
+}
+
+div[class^="mdsur-frank-procTypes"] {
+	background-color: white;
+	width: 60%;
+	margin: auto;
+/*	border-style: double;
+	border-width: 6px;
+	border-color: black; */
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 25px;
+	/* outline: 0.5rem solid khaki; */
+}
+
+
+pre {
+	overflow-x: auto;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+}
+
+.menu {
+	font-size: 2em;
+	position: relative;
+	top: 0px;
+	left: 99%;
+	margin-top: -15px;
+}
+.menu a {
+	text-decoration: none;
+}
+
+.logo {
+	position: absolute;
+}
+
+div[class|="mdsur-docs-index"] {
+	font-family: 'Fira Mono';
+	 padding-top: 15px;
+}
+
+
+div.mdsur-docs-index-0 ul {
+	display: none;
+}
+
+.sur {
+	width: 70%;
+	margin: auto;
+	background-color: white;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.contactOpt {
+	margin-top: -64px;
+	margin-left: auto;
+	margin-right: 0;
+	padding: 0;
+	width: 140px;
+	/*border: 1px solid red;*/
+	font-size: 2em;
+}
+.phone {
+	margin-right: 0;
+	width: 32px;
+	margin-left: 5px;
+	/*border: 1px solid blue;*/
+}
+a[href="tel:28569086"] {
+	text-decoration: none;
+}
+
+.mail {
+	margin-right: 0;
+	margin-left: 5px;
+	width: 32px;
+	cursor: pointer;
+	/*border: 1px solid blue;*/
+}
+
+.github {
+	/* border: 1px solid blue;*/
+	margin-left: 5px;
+	width: 32px;
+	margin-right: 0;
+}
+.mailPic {
+	width: 140px;
+	height: 32px;
+	/* border: 1px solid red; */
+	background-image: url(/img/pages/blank.png);
+	background-repeat: no-repeat;
+}
+
+img[alt=play-foo-bar], img[alt=playScreen]{
+	border: 5px groove gray;
+	margin-left: 10px;
+}
+
+img[alt=hello-md],img[alt=starship] {
+	border: 5px groove orange;
+	margin-left: 10px;
+}
+
+img[alt=gravatar] {
+	border-top:5px groove gray;
+	border-left:5px groove gray;
+	border-bottom:5px groove gray;
+	border-right :2px dashed black;
+}	
+
+a[title=php], a[title=opinion],a[title=explainer],a[title=details] {
+	font-size: 1.5em; 
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: top; 
+}
+
+pre {
+	font-size: 1.2em;
+	border-left: 4px solid lightblue;
+	padding-left: 4px;
+}
+

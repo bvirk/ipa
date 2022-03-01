@@ -1,0 +1,9 @@
+div[class|=mdsur-play-hello] { 
+	width: 60%;
+	margin: auto;
+	border-bottom: 2px solid gray;
+}
+
+.mdsur-play-hello-0 {
+	background:  linear-gradient(to bottom, rgba(195, 195, 195, 1), rgba(255, 255, 255, 1));
+}
