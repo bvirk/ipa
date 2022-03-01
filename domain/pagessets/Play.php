@@ -24,12 +24,12 @@ function _dir() {
 
 class Play extends PageAware {
 	protected $jsFiles = [
-			 "/js/jquery-3.6.0.min.js"
-			,"/js/jquery-ui.min.js"
-			,"/js/highcharts.src.js"
+			 "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			,"https://code.highcharts.com/highcharts.js"
 			,"https://code.highcharts.com/modules/drilldown.js"
-			,"/js/jquery.highchartTable.js"
 			];
+	///js/highcharts.src.js
+	///js/jquery.highchartTable.js
 	protected $cssFiles=['https://fonts.googleapis.com/css?family=Rock+Salt'];
 	static $methods = ['web_directory','my_pie','slider','pie_art'];
 	

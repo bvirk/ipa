@@ -20,8 +20,8 @@ function float300x250() {?>
 
 class Utils extends PageAware {
 	protected $jsFiles = [
-			 "/js/jquery-3.6.0.min.js"
-			,"/js/jquery-ui.min.js"];
+			 "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+			,"https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"];
 
 	function log_it() {
 		$this->stdPage(null,['_logfilecontent']); 

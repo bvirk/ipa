@@ -7,7 +7,7 @@ function docroot_file_exists($fileN) {
 
 class Sitemap extends PageAware {
 	protected $jsFiles = [
-			 "/js/jquery-3.6.0.min.js"
+			 "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
 			];
 	protected $jsAsMethods = ["expandMenu"];
 	
