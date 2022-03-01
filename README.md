@@ -16,9 +16,9 @@ index.php:
 ...
 spl_autoload_register(...
 ...
-\$pe = [...
+$pe = [...
 
-[new \$pe[3](),\$pe[1]]();
+[new $pe[3](),$pe[1]]();
 ```
 
 pagessets/Play.php:
@@ -28,9 +28,9 @@ namespace ...
 
 class Play extends PageAware {
 	function foo_bar() {
-		global \$pe;
+		global $pe;
 		?><pre><?= 
-		var_export(\$pe,true) 
+		var_export($pe,true) 
 		?></pre><?php
 	}
 ```	
