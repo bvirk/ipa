@@ -37,5 +37,10 @@ class Play extends PageAware {
  ![play-foo-bar](https://github.com/bvirk/ipa/blob/main/domain/img/pages/docs/bws-play-foo_bar.png?raw=true)
  
 ---
-Documentation continued in website in this repo. php 7.3. developed in firefox 96 linux.
+### futher specs.
+- php 7.3
+- testing in linux firefox 96
+- documentation
+	- this repository is an apache virtuelt dir
+	- [ipa.bvirk.dk/docs](http://ipa.bvirk.dk/docs)
  
